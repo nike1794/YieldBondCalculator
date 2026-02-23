@@ -1,6 +1,9 @@
 export const DEFAULT_PORT = 8000;
 
-export const CORS_ORIGINS = ['http://localhost:3000'];
+export const CORS_ORIGINS = [
+  'http://localhost:3000',
+  'https://nike1794.github.io',
+];
 export const CORS_METHODS = [
   'GET',
   'POST',
