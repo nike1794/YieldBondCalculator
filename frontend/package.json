@@ -2,6 +2,8 @@
   "name": "scanner-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://nike1794.github.io/bond-calculator",
+
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -14,10 +16,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "vite build",
+    "dev": "vite"  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -38,6 +42,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.3",
     "tailwindcss": "^4.1.7"
   }
