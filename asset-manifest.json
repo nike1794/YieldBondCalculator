@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bond-calculator/static/css/main.b73e9868.css",
+    "main.js": "/bond-calculator/static/js/main.6c177327.js",
+    "static/js/453.a6b43dfd.chunk.js": "/bond-calculator/static/js/453.a6b43dfd.chunk.js",
+    "index.html": "/bond-calculator/index.html",
+    "main.b73e9868.css.map": "/bond-calculator/static/css/main.b73e9868.css.map",
+    "main.6c177327.js.map": "/bond-calculator/static/js/main.6c177327.js.map",
+    "453.a6b43dfd.chunk.js.map": "/bond-calculator/static/js/453.a6b43dfd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b73e9868.css",
+    "static/js/main.6c177327.js"
+  ]
+}
