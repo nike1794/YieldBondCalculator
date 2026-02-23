@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f6f7fb;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+}
+
+.bond-app {
+  max-width: 900px;
+  margin: 24px auto;
+  padding: 0 16px 24px;
+  display: grid;
+  gap: 16px;
+}
+
+.panel {
+  background: #fff;
+  border: 1px solid #d9dbe3;
+  border-radius: 10px;
+  padding: 18px;
+}
+
+h1,
+h2 {
+  margin: 0 0 14px;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.15rem;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 12px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.95rem;
+}
+
+input,
+select {
+  padding: 9px 10px;
+  border: 1px solid #bcc2d0;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.calculate-btn {
+  margin-top: 14px;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  background: #0c62ff;
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.calculate-btn:hover {
+  background: #0847bd;
+}
+
+.metrics {
+  display: grid;
+  gap: 8px;
+}
+
+.metric-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 12px;
+  border: 1px solid #e0e3ed;
+  border-radius: 8px;
+}
+
+.status-discount {
+  color: #138a36;
+}
+
+.status-premium {
+  color: #b98500;
+}
+
+.status-par {
+  color: #3b4456;
+}
+
+.table-wrap {
+  border: 1px solid #e0e3ed;
+  border-radius: 8px;
+  overflow: auto;
+  max-height: 320px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 620px;
+}
+
+th,
+td {
+  border-bottom: 1px solid #eceef5;
+  text-align: left;
+  padding: 10px;
+  font-size: 0.92rem;
+}
+
+th {
+  background: #f2f4fa;
+  position: sticky;
+  top: 0;
+}
+
+.last-row {
+  background: #ebf7ef;
+  font-weight: 600;
+}
+
+.empty-cell {
+  text-align: center;
+  padding: 28px 10px;
+  color: #6b7280;
+}
+
+@media (max-width: 600px) {
+  .bond-app {
+    margin-top: 14px;
+    padding: 0 10px 16px;
+  }
+
+  .panel {
+    padding: 14px;
+  }
+}
