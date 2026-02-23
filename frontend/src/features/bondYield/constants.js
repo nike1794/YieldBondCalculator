@@ -4,7 +4,7 @@ export const FREQUENCIES = {
 };
 
 export const BOND_CALCULATE_API_URL =
-  process.env.REACT_APP_BOND_API_URL || 'http://localhost:8000/bond/calculate';
+  process.env.REACT_APP_BOND_API_URL || 'https://yieldbondcalculator.onrender.com/bond/calculate';
 export const CURRENCY_SYMBOL = '\u20B9';
 
 export const FORM_DEFAULTS = {
